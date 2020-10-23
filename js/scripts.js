@@ -10,21 +10,21 @@ $(document).ready(function() {
 });
 
 $(document).ready(function() {
-  $("#quiz").submit(function(event) {
+  $("form-group#quiz").submit(function(event) {
     event.preventDefault();
 
-    const question1Input = $("select#question1").val();
+    const question1Input = $("select#question1Input").val();
 
     //this line of code is for totalling up value inputs once I can figure out how to do that. Must parse value for accurate result!
 //    $("#question1").parseInt(question1Input);
     if (question1Input === "1") {
-      $("#swift").fadeIn();
+      $("#swift-logo").fadeIn();
     } else if (question1Input === "2") {
-      $('#java').fadeIn();
+      $('#java-logo').fadeIn();
     } else if (question1Input === "3") {
-      $('#javascript').fadeIn();
+      $('#javascript-logo').fadeIn();
     } else if (question1Input === "4") {
-      $('#python').fadeIn();
+      $('#python-logo').fadeIn();
     }
 //this line of code is also for totalling up all value inputs - once I figure that out.
 //    $("#quiz-results").show();
