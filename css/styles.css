@@ -38,26 +38,26 @@ img {
   font-style: italic;
 }
 
-.show-uses1 {
+#show-uses1 {
   display: none;
 }
 
-.show-uses2 {
+#show-uses2 {
   display: none;
 }
 
-.show-uses3 {
+#show-uses3 {
   display: none;
 }
 
-.show-uses4 {
+#show-uses4 {
   display: none;
 }
 
-.show-uses5 {
+#show-uses5 {
   display: none;
 }
 
-.show-uses6 {
+#show-uses6 {
   display: none;
 }
