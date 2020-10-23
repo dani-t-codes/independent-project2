@@ -11,7 +11,7 @@ $(document).ready(function() {
 
 $(document).ready(function() {
   $("#quiz").submit(function) {
-    const question1Input = parseInt($("input#question1").val();
+    const question1Input = parseInt($("#question1").val();
 
     event.preventDefault();
   }
