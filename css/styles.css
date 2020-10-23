@@ -3,5 +3,11 @@ h1 {
 }
 
 p {
-  editor.font-family: Source Sans Pro; 
+  font-family: Source Sans Pro; 
+}
+
+.photo-caption {
+  font-size: small;
+  font-family: Source Sans Pro;
+  font-style: italic;
 }
