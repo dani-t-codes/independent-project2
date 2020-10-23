@@ -26,6 +26,7 @@ img {
   color: white;
   text-decoration: underline;
   background-color: #123C69;
+  box-shadow: 5px 5px 2px #BAB2B5;
 }
 
 .list-highlight {
@@ -35,4 +36,28 @@ img {
   font-size: small;
   font-family: Source Sans Pro;
   font-style: italic;
+}
+
+.show-uses1 {
+  display: none;
+}
+
+.show-uses2 {
+  display: none;
+}
+
+.show-uses3 {
+  display: none;
+}
+
+.show-uses4 {
+  display: none;
+}
+
+.show-uses5 {
+  display: none;
+}
+
+.show-uses6 {
+  display: none;
 }
