@@ -9,6 +9,15 @@ p {
 li {
   text-decoration: underline;
 }
+
+#title {
+  font-family: Piazzolla; 
+  font-size: large;
+  font-style: bolder;
+  text-decoration: underline;
+  background-color: bisque;
+}
+
 .photo-caption {
   font-size: small;
   font-family: Source Sans Pro;
