@@ -6,6 +6,9 @@ p {
   font-family: Source Sans Pro; 
 }
 
+li {
+  text-decoration: underline;
+}
 .photo-caption {
   font-size: small;
   font-family: Source Sans Pro;
