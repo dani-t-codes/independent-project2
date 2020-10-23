@@ -12,7 +12,7 @@
     <div class="jumbotron">
       <h1>Adventures in Coding Languages</h1>
       <h3>Take our Quiz!</h3>
-      <p>(Or <a href="index.html">Go Home</a>)</p>
+      <p class="link-backsplash">(Or <a href="index.html">Go Home</a>)</p>
     </div>
 
     <form id="quiz">
@@ -31,7 +31,7 @@
       <br>
       <div class="form-group">
         <label for="question2" class="question-styling">Question 2</label>
-        <select class="form-control" id="question2">
+        <select id="question2" class="form-control" >
           <option disabled selected>What's your favorite animal?</option>
           <option value="1">Orangutan</option>
           <option value="2">Dog</option>
@@ -44,7 +44,11 @@
       <br>
     </form>  
 
-    
+    <div id="quiz-results">
+      <h3>You should learn...</h3>
+      <p>Swift!</p>
+      <img src="../images/swift-logo.jpeg" alt="An image of the Swift logo.">
+    </div>
   </div>
 </body>
 </html>
