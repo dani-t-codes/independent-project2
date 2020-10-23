@@ -1,3 +1,7 @@
+body{
+  background-color: #EFE2BA;
+}
+
 h1 {
   font-family: Piazzolla;
 }
@@ -14,8 +18,9 @@ li {
   font-family: Piazzolla; 
   font-size: large;
   font-style: bolder;
+  color: white;
   text-decoration: underline;
-  background-color: bisque;
+  background-color: #123C69;
 }
 
 .photo-caption {
