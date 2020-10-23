@@ -8,6 +8,13 @@ h1 {
   color: white;
 }
 
+h3 {
+  font-family: Piazzolla;
+  color: #123C69;
+  background-color: #EDC7B7;
+  
+}
+
 p {
   font-family: Source Sans Pro; 
 }
@@ -57,4 +64,13 @@ img {
 
 #show-uses6 {
   display: none;
+}
+
+.btn {
+  background: #123C69;
+  color: white;
+}
+
+.question-styling {
+  background: #EDC7B7;
 }
