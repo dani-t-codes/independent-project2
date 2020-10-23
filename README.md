@@ -10,6 +10,8 @@ _{This project is meant to be a brief showcase of the skills learned during my s
 ## Motivation 
 _{This application employs a survey meant to help people interested in coding decide which language to learn first. Especially for a beginner, unfamiliar with tech- and computer-related terminology, there are *so* many languages to navigate and choose from. It is my hope that this brief synopsis of several popular coding languages will help folks new to tech choose the best language to begin with.}_
 
+_{Color scheme: #EDC7B7, #EEE2DC, #BAB2B5, #123C69, #AC3861}_
+
 ## Technologies/libraries used
 
 _{Javascript}_

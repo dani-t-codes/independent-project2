@@ -1,9 +1,10 @@
 body{
-  background-color: #EFE2BA;
+  background-color: #EEE2DC;
 }
 
 h1 {
   font-family: Piazzolla;
+  background-color: #AC3B61;
 }
 
 p {
@@ -12,6 +13,10 @@ p {
 
 li {
   text-decoration: underline;
+}
+
+img {
+  box-shadow: 15px 15px 5px #EDC7B7;
 }
 
 #list-title {
@@ -23,6 +28,9 @@ li {
   background-color: #123C69;
 }
 
+.list-highlight {
+  background-color: #BAB2B5;
+}
 .photo-caption {
   font-size: small;
   font-family: Source Sans Pro;
