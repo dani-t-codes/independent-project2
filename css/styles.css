@@ -22,25 +22,6 @@ img {
   box-shadow: 15px 15px 5px #EDC7B7;
 }
 
-#list-title {
-  font-family: Piazzolla; 
-  font-size: large;
-  font-style: bolder;
-  color: white;
-  text-decoration: underline;
-  background-color: #123C69;
-  box-shadow: 5px 5px 2px #BAB2B5;
-}
-
-.list-highlight {
-  background-color: #BAB2B5;
-}
-.photo-caption {
-  font-size: small;
-  font-family: Source Sans Pro;
-  font-style: italic;
-}
-
 #show-uses1 {
   display: none;
 }
@@ -64,6 +45,26 @@ img {
 #show-uses6 {
   display: none;
 }
+
+#list-title {
+  font-family: Piazzolla; 
+  font-size: large;
+  font-style: bolder;
+  color: white;
+  text-decoration: underline;
+  background-color: #123C69;
+  box-shadow: 5px 5px 2px #BAB2B5;
+}
+
+.list-highlight {
+  background-color: #BAB2B5;
+}
+.photo-caption {
+  font-size: small;
+  font-family: Source Sans Pro;
+  font-style: italic;
+}
+
 
 .btn {
   background: #123C69;
