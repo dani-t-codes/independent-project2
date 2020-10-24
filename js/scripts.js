@@ -1,6 +1,35 @@
 $(document).ready(function() {
-  $(".click-me").click(function() {
-    $(".show-uses").toggle();
+  $("#click-me1").click(function() {
+    $("#show-uses1").toggle();
+  });
+});
+
+$(document).ready(function() {
+  $("#click-me2").click(function() {
+    $("#show-uses2").toggle();
+  });
+});
+
+$(document).ready(function() {
+  $("#click-me3").click(function() {
+    $("#show-uses3").toggle();
+  });
+});
+
+$(document).ready(function() {
+  $("#click-me4").click(function() {
+    $("#show-uses4").toggle();
+  });
+});
+
+$(document).ready(function() {
+  $("#click-me5").click(function() {
+    $("#show-uses5").toggle();
+  });
+});
+
+$(document).ready(function() {
+  $("#click-me6").click(function() {
     $("#show-uses6").toggle();
   });
 });

@@ -22,11 +22,61 @@ img {
   box-shadow: 15px 15px 5px #EDC7B7;
 }
 
-.show-uses {
+#show-uses1 {
   display: none;
 }
 
-.click-me:hover {
+#show-uses2 {
+  display: none;
+}
+
+#show-uses3 {
+  display: none;
+}
+
+#show-uses4 {
+  display: none;
+}
+
+#show-uses5 {
+  display: none;
+}
+
+#show-uses6 {
+  display: none;
+}
+
+#click-me1:hover {
+  cursor: pointer;
+  color: #0088cc;
+  text-decoration: underline;
+}
+
+#click-me2:hover {
+  cursor: pointer;
+  color: #0088cc;
+  text-decoration: underline;
+}
+
+#click-me3:hover {
+  cursor: pointer;
+  color: #0088cc;
+  text-decoration: underline;
+}
+
+#click-me4:hover {
+  cursor: pointer;
+  color: #0088cc;
+  text-decoration: underline;
+}
+
+#click-me5:hover {
+  cursor: pointer;
+  color: #0088cc;
+  text-decoration: underline;
+}
+
+#click-me6:hover {
   cursor: pointer;
   color: #0088cc;
   text-decoration: underline;
