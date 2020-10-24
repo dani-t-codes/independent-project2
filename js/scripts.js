@@ -1,10 +1,6 @@
 $(document).ready(function() {
-  $("p").click(function() {
-    $("#show-uses1").toggle();
-    $("#show-uses2").toggle();
-    $("#show-uses3").toggle();
-    $("#show-uses4").toggle();
-    $("#show-uses5").toggle();
+  $(".click-me").click(function() {
+    $(".show-uses").toggle();
     $("#show-uses6").toggle();
   });
 });
@@ -33,4 +29,4 @@ $(document).ready(function() {
 
 $(document).ready(function() {
   $("")
-}
+});

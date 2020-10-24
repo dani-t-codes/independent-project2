@@ -22,28 +22,14 @@ img {
   box-shadow: 15px 15px 5px #EDC7B7;
 }
 
-#show-uses1 {
+.show-uses {
   display: none;
 }
 
-#show-uses2 {
-  display: none;
-}
-
-#show-uses3 {
-  display: none;
-}
-
-#show-uses4 {
-  display: none;
-}
-
-#show-uses5 {
-  display: none;
-}
-
-#show-uses6 {
-  display: none;
+.click-me:hover {
+  cursor: pointer;
+  color: #0088cc;
+  text-decoration: underline;
 }
 
 #list-title {
@@ -64,7 +50,6 @@ img {
   font-family: Source Sans Pro;
   font-style: italic;
 }
-
 
 .btn {
   background: #123C69;
