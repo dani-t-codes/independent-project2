@@ -14,12 +14,28 @@ h3 {
   background-color: #EDC7B7;
 }
 
-p {
+.add-border {
   font-family: Source Sans Pro; 
+  border-style: dashed;
+  border-color: #123C69;
+  padding: 10px 10px 10px 10px;
 }
 
-img {
+.graph-photo {
+  border: inset #AC3B61;
   box-shadow: 15px 15px 5px #EDC7B7;
+  width:800px;
+  height: auto;
+  display: block; 
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#photo-caption {
+  font-size: small;
+  font-family: Source Sans Pro;
+  font-style: italic;
+  text-align: center;
 }
 
 #show-uses1 {
@@ -95,13 +111,15 @@ img {
 .list-highlight {
   background-color: #BAB2B5;
 }
-.photo-caption {
-  font-size: small;
-  font-family: Source Sans Pro;
-  font-style: italic;
+
+#quiz {
+  background-color: #BAB2B5;
+  padding-top: 30px;
+  padding-left: 30px;
+  padding-right: 30px;
 }
 
-.btn {
+#submit-button {
   background: #123C69;
   color: white;
 }
@@ -119,7 +137,14 @@ img {
   border-style: inset;
   border-color: #123C69;
   padding: 10px 10px 30px 10px;
-  
+}
+
+img {
+  border-style: dotted;
+  border-color: #AC3B61;
+  display: block; 
+  margin-left: auto;
+  margin-right: auto;
 }
 
 #java-logo {
