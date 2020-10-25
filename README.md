@@ -29,7 +29,7 @@ _{jQuery Library}_
 
 ## Known bugs
 
-_{As of 10.23.20, the form on the quiz page does not submit results yet.}_
+_{As of 10.25.20, the quiz only shows one answer at a time, as it should, but the values of each answer do not total up.}_
 
 ### Legal 
 
