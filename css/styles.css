@@ -116,16 +116,29 @@ img {
 
 #swift-logo {
   display: none;
+  border-style: inset;
+  border-color: #123C69;
+  padding: 10px 10px 30px 10px;
+  
 }
 
 #java-logo {
   display: none;
+  border-style: inset;
+  border-color: #123C69;
+  padding: 10px 10px 30px 10px;
 }
 
 #javascript-logo {
   display: none;
+  border-style: inset;
+  border-color: #123C69;
+  padding: 10px 10px 30px 10px;
 }
 
 #python-logo {
   display: none;
+  border-style: inset;
+  border-color: #123C69;
+  padding: 10px 10px 30px 10px;
 }
