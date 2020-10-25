@@ -132,16 +132,16 @@ $(document).ready(function() {
     const question5 = $("select#question5").val();
 
     if (question5 === "1") {
-      $("#swift-logo").removeClass();
+      $('body').removeClass();
       $("#swift-logo").fadeIn();
     } else if (question5 === "2") {
-      $('#java-logo').removeClass();
+      $('body').removeClass();
       $('#java-logo').fadeIn();
     } else if (question5 === "3") {
-      $('#javascript-logo').removeClass();
+      $('body').removeClass();
       $('#javascript-logo').fadeIn();
     } else if (question5 === "4") {
-      $('#python-logo').removeClass();
+      $('body').removeClass();
       $('#python-logo').fadeIn();
     }
     
