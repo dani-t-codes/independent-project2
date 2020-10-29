@@ -32,12 +32,21 @@ $(document).ready(function() {
 
   $("form#quiz").submit(function(event) {
     event.preventDefault();
-    const question1 = $("select#question1").val();
-    const question2 = $("select#question2").val();
-    const question3 = $("select#question3").val();
-    const question4 = $("select#question4").val(); 
-    const question5 = $("select#question5").val();
+    const result1 = $("#question1").val();
+      console.log(result1)
+    const result2 = $("#question2").val();
+    const result3 = $("#question3").val();
+    const result4 = $("#question4").val(); 
+    const result5 = $("#question5").val();
 
+    let swiftResults = [add()];
+    let javaResults = [];
+    let javascriptResults = [];
+    let pythonResults = [];
+    $.each($(".1 option:selected"), function() {
+      answers.push($(this).val());
+      console.log(answers);
+    });
 //    let results = highest # of answers ... or total occurences of x value
 
 //if (results === "")
@@ -45,25 +54,25 @@ $(document).ready(function() {
 //this line of code is for totalling up value inputs once I can figure out how to do that. Must parse value for accurate result!
 //    $("#question1").parseInt(question1Input);
 
-    if (results) {
-      (1 > all others)
-      then A
-      $(this).remove();
-      $("#swift-logo").fadeIn();   
-      else if (2 > all others)
-      then B
-      $(this).remove();
-      $('#java-logo').fadeIn();
-      else if (3 > all others)
-      then C
-      $(this).remove();
-      $('#javascript-logo').fadeIn();
-      else if (4 > all others)
-      $(this).remove();
-      $('#python-logo').fadeIn();
-      }
+    // if (results) {
+    //   (total # of 1 values > all others)
+    //   then A
+    //   $(this).remove();
+    //   $("#swift-logo").fadeIn();   
+      // else if (2 > all others)
+      // then B
+      // $(this).remove();
+      // $('#java-logo').fadeIn();
+      // else if (3 > all others)
+      // then C
+      // $(this).remove();
+      // $('#javascript-logo').fadeIn();
+      // else if (4 > all others)
+      // $(this).remove();
+      // $('#python-logo').fadeIn();
+      // }
   });
 
  //   }
     //this line of code is also for totalling up all value inputs - once I figure that out.
-    //    $("#quiz-results").show();
+    //    $("#quiz-results").show()
