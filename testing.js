@@ -1,3 +1,8 @@
+//Test1: Get question const to return selected option's value
+//Test1: Success
+//Test 2: Create empty arrays for all 4 coding langs. 
+
+
 
 //  what if there are even number of A,B,C,D answers returned ??    
 

@@ -33,23 +33,27 @@ $(document).ready(function() {
   $("form#quiz").submit(function(event) {
     event.preventDefault();
     const result1 = $("#question1").val();
-      console.log(result1)
     const result2 = $("#question2").val();
     const result3 = $("#question3").val();
     const result4 = $("#question4").val(); 
     const result5 = $("#question5").val();
 
-    let swiftResults = [add()];
-    let javaResults = [];
-    let javascriptResults = [];
-    let pythonResults = [];
-    $.each($(".1 option:selected"), function() {
-      answers.push($(this).val());
-      console.log(answers);
+    let val1Swift = [];
+    result1.forEach(function(element) {
+      // (if result1 === 1  val1Swift.push() 
+      // else if result1 === 2 val2Java.push()
+      //else if result1 === 3 val3Javascript.push()
+      //else if result1 === 4 val4Javascript.push()
+    }
+    let val2Java = [];
+    let val3Javascript = [];
+    let val4Python = [];
+
+    //THEN when each Q's answer is pushed into the appropriate array
+
+
     });
 //    let results = highest # of answers ... or total occurences of x value
-
-//if (results === "")
 
 //this line of code is for totalling up value inputs once I can figure out how to do that. Must parse value for accurate result!
 //    $("#question1").parseInt(question1Input);
