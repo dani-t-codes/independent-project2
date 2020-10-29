@@ -21,8 +21,8 @@ _jQuery Library_
 
 ## Complete setup instructions
 * _In the Terminal for Mac users or Command Prompt program for Windows users, clone this application from this (GitHub repository)[https://github.com/dani-t-codes/independent-project2] with the following command:_
-* _`git clone https://github.com/dani-t-codes/independent-project2 _
-*_Open the index.html in your web browser of choice, either by double-clicking the file icon inside the project folder, or by opening File>Open File>"index.html" from the ind-proj-2 folder that you cloned onto your computer._
+* _`git clone https://github.com/dani-t-codes/independent-project2` _
+* _Open the index.html in your web browser of choice, either by double-clicking the file icon inside the project folder, or by opening File>Open File>"index.html" from the ind-proj-2 folder that you cloned onto your computer._
 * _Read through the information on the index page as much, or as little as you wish._
 * _Find and follow the link to be redirected to the quiz at the bottom of the home (index.html) page._
 * _Take the quiz & find out which coding language you should start learning first!_
@@ -33,4 +33,4 @@ _As of 10.25.20, the quiz only shows one answer at a time, as it should, but the
 
 ### Legal 
 
-MIT Copyright (c) 2020 **_Danielle Thompson_**
+MIT Copyright (c) 2020 ** _Danielle Thompson_ **
