@@ -38,23 +38,30 @@ $(document).ready(function() {
     const question4 = $("select#question4").val(); 
     const question5 = $("select#question5").val();
 
+//    let results = highest # of answers ... or total occurences of x value
+
+//if (results === "")
+
 //this line of code is for totalling up value inputs once I can figure out how to do that. Must parse value for accurate result!
 //    $("#question1").parseInt(question1Input);
 
-    if (question1 === "1") {
+    if (results) {
+      (1 > all others)
+      then A
       $(this).remove();
-      $("#swift-logo").fadeIn();
-    } else if (question1 === "2") {
+      $("#swift-logo").fadeIn();   
+      else if (2 > all others)
+      then B
       $(this).remove();
       $('#java-logo').fadeIn();
-    } else if (question1 === "3") {
+      else if (3 > all others)
+      then C
       $(this).remove();
       $('#javascript-logo').fadeIn();
-    } else if (question1 === "4") {
+      else if (4 > all others)
       $(this).remove();
       $('#python-logo').fadeIn();
-    }
-    
+      }
   });
 
  //   }

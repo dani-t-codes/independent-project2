@@ -1,5 +1,9 @@
 
-//   $("form#quiz").submit(function(event) {
+//  what if there are even number of A,B,C,D answers returned ??    
+
+
+
+//    $("form#quiz").submit(function(event) {
 //     event.preventDefault();
 //     const question1 = $("select#question1").val();
 // //this line of code is for totalling up value inputs once I can figure out how to do that. Must parse value for accurate result!
