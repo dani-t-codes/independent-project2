@@ -29,8 +29,8 @@ _Color scheme: #EDC7B7, #EEE2DC, #BAB2B5, #123C69, #AC3861_
 
 ## Known bugs
 
-_As of 10.25.20, the quiz only shows one answer at a time, as it should, but the values of each answer do not total up._
+_As of 10.25.20, the quiz only shows one answer at a time, as it should, but the values of each answer in the quiz do not total up to produce one result as they should ._
 
 ### Legal 
 
-MIT Copyright (c) 2020 ** _Danielle Thompson_ **
+MIT Copyright (c) 2020 **_Danielle Thompson_**
