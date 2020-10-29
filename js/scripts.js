@@ -3,41 +3,31 @@ $(document).ready(function() {
   $("#click-me1").click(function() {
     $("#show-uses1").toggle();
   });
-});
 
-$(document).ready(function() {
+
   $("#click-me2").click(function() {
     $("#show-uses2").toggle();
   });
-});
 
-$(document).ready(function() {
   $("#click-me3").click(function() {
     $("#show-uses3").toggle();
   });
-});
 
-$(document).ready(function() {
+
   $("#click-me4").click(function() {
     $("#show-uses4").toggle();
   });
-});
 
-$(document).ready(function() {
   $("#click-me5").click(function() {
     $("#show-uses5").toggle();
   });
-});
 
-$(document).ready(function() {
   $("#click-me6").click(function() {
     $("#show-uses6").toggle();
   });
-});
 
 //quiz page functions 
 
-$(document).ready(function() {
   $("form#quiz").submit(function(event) {
     event.preventDefault();
     const question1 = $("select#question1").val();
@@ -58,9 +48,7 @@ $(document).ready(function() {
     }
     
   });
-});
 
-$(document).ready(function() {
   $("form#quiz").submit(function(event) {
     event.preventDefault();
     const question2 = $("select#question2").val();
@@ -82,7 +70,6 @@ $(document).ready(function() {
   });
 });
 
-$(document).ready(function() {
   $("form#quiz").submit(function(event) {
     event.preventDefault();
     const question3 = $("select#question3").val();
@@ -100,11 +87,8 @@ $(document).ready(function() {
       $(this).remove();
       $('#python-logo').fadeIn();
     }
-    
   });
-});
 
-$(document).ready(function() {
   $("form#quiz").submit(function(event) {
     event.preventDefault();
     const question4 = $("select#question4").val();  
@@ -124,9 +108,7 @@ $(document).ready(function() {
     }
     
   });
-});
 
-$(document).ready(function() {
   $("form#quiz").first().submit(function(event) {
     event.preventDefault();
     const question5 = $("select#question5").val();
@@ -144,9 +126,8 @@ $(document).ready(function() {
       $(this).remove();
       $('#python-logo').fadeIn();
     }
-    
   });
-});
+
 
  //   }
     //this line of code is also for totalling up all value inputs - once I figure that out.

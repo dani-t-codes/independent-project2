@@ -38,61 +38,11 @@ h3 {
   text-align: center;
 }
 
-#show-uses1 {
+#show-uses1, #show-uses2, #show-uses3, #show-uses4, #show-uses5, #show-uses6 {
   display: none;
 }
 
-#show-uses2 {
-  display: none;
-}
-
-#show-uses3 {
-  display: none;
-}
-
-#show-uses4 {
-  display: none;
-}
-
-#show-uses5 {
-  display: none;
-}
-
-#show-uses6 {
-  display: none;
-}
-
-#click-me1:hover {
-  cursor: pointer;
-  color: #0088cc;
-  text-decoration: underline;
-}
-
-#click-me2:hover {
-  cursor: pointer;
-  color: #0088cc;
-  text-decoration: underline;
-}
-
-#click-me3:hover {
-  cursor: pointer;
-  color: #0088cc;
-  text-decoration: underline;
-}
-
-#click-me4:hover {
-  cursor: pointer;
-  color: #0088cc;
-  text-decoration: underline;
-}
-
-#click-me5:hover {
-  cursor: pointer;
-  color: #0088cc;
-  text-decoration: underline;
-}
-
-#click-me6:hover {
+#click-me1:hover, #click-me2:hover, #click-me3:hover, #click-me4:hover, #click-me5:hover, #click-me6:hover  {
   cursor: pointer;
   color: #0088cc;
   text-decoration: underline;
@@ -108,10 +58,6 @@ h3 {
   box-shadow: 5px 5px 2px #BAB2B5;
 }
 
-.list-highlight {
-  background-color: #BAB2B5;
-}
-
 #quiz {
   background-color: #BAB2B5;
   padding-top: 30px;
@@ -124,19 +70,12 @@ h3 {
   color: white;
 }
 
-.question-styling {
+.question-styling, .form-group {
   background: #EDC7B7;
 }
 
-.link-backsplash {
+.link-backsplash, .list-highlight {
   background-color: #BAB2B5;
-}
-
-#swift-logo {
-  display: none;
-  border-style: inset;
-  border-color: #123C69;
-  padding: 10px 10px 30px 10px;
 }
 
 img {
@@ -147,27 +86,9 @@ img {
   margin-right: auto;
 }
 
-#java-logo {
+#java-logo, #javascript-logo, #python-logo, #swift-logo {
   display: none;
   border-style: inset;
   border-color: #123C69;
   padding: 10px 10px 30px 10px;
-}
-
-#javascript-logo {
-  display: none;
-  border-style: inset;
-  border-color: #123C69;
-  padding: 10px 10px 30px 10px;
-}
-
-#python-logo {
-  display: none;
-  border-style: inset;
-  border-color: #123C69;
-  padding: 10px 10px 30px 10px;
-}
-
-.form-group {
-  background-color: #EDC7B7;
 }
