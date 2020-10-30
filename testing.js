@@ -1,7 +1,7 @@
 //This document serves the purpose of holding previous iterations of code that (desperately) needed refactoring, debugging and testing info, as well as "future" code that would advance the existing code in the scripts page from returning the result for only question 1 to returning combined results for *all* questions. 
 
 
-//    let results = highest # of answers ... or total occurences of x value
+//let results = highest # of answers ... or total occurences of x value
 //Test1: Get question const to return selected option's value
 //Test1: Success
 //Test 2: Create empty arrays for all 4 coding langs. 
@@ -35,56 +35,52 @@
 //    } else if (result1 === 4) {
 //      pythonValues.push(result1)
 //   }    
-    
-// ----------------------------------
-// .push to javaValues
-//and so on
-  
 
-    // is result1 the right thing to put at the beginning of the next method?
-    // is 'for each' the right thing to use, or should I use for? 
-    // will have to repeat for each Q if it IS right/OK : 
-    //result2.foreach , result3.foreach etc. 
-    // maybe MDN's elements.join(); will be a thing? 
+// ----------------------------------
+// is result1 the right thing to put at the beginning of the next method?
+// is 'for each' the right thing to use, or should I use for? 
+// will have to repeat for each Q if it IS right/OK : 
+//result2.foreach , result3.foreach etc. 
+// maybe MDN's elements.join(); will be a thing? 
 
 //    result1.forEach(function(value) {
 //    }
-    
-
-    //THEN when each Q's answer is pushed into the appropriate array
-    //val1Swift.length 
 
 
-    // if (results) {
-    //   if val1Swift.length > val2Java.length && val3Javascript.length %% val4Python.length
-    //   then...
-    //   $(this).remove();
-    //   $("#swift-logo").fadeIn(); 
+//THEN when each Q's answer is pushed into the appropriate array
+//val1Swift.length 
 
-      // else if val2Java.length > other three .length
-      // then...
-      // $(this).remove();
-      // $('#java-logo').fadeIn();
 
-      // else if (3 > all others)
-      // then C
-      // $(this).remove();
-      // $('#javascript-logo').fadeIn();
+// if (results) {
+//   if val1Swift.length > val2Java.length && val3Javascript.length %% val4Python.length
+//   then...
+//   $(this).remove();
+//   $("#swift-logo").fadeIn(); 
 
-      // else if (4 > all others)
-      // $(this).remove();
-      // $('#python-logo').fadeIn();
-      // }
+  // else if val2Java.length > other three .length
+  // then...
+  // $(this).remove();
+  // $('#java-logo').fadeIn();
+
+  // else if (3 > all others)
+  // then C
+  // $(this).remove();
+  // $('#javascript-logo').fadeIn();
+
+  // else if (4 > all others)
+  // $(this).remove();
+  // $('#python-logo').fadeIn();
+  // }
 
 //  what if there are even number of A,B,C,D answers returned ??    
 
-      // else if any valx === another valy
-      // then 5th result 
-      // $(('#id1') + ' or ' + ('#id2)').fadeIn;
-      //OR skip and include bug in README
+  // else if any valx === another valy
+  // then 5th result 
+  // $(('#id1') + ' or ' + ('#id2)').fadeIn;
+  //OR skip and include bug in README
 
-      //else if 0 answers
-      //alert("Please select answers to the questions before submitting.")
+  //else if 0 answers
+  //alert("Please select answers to the questions before submitting.")
 // });
 //   }
 
