@@ -1,4 +1,4 @@
-//This document serves the purpose of holding previous iterations of code that (desperately) needed refactoring, debugging and testing info, as well as "future" code that would advance the existing code in the scripts page from returning the result for only question 1 to returning combined results for *all* questions. 
+//This document serves the purpose of holding previous iterations of code that (desperately) needed refactoring, debugging and testing info, as well as "future" code that would advance the existing code in the scripts page from returning the result for only question 1 to returning combined results for *all* questions. Much of it is 'chicken scratch.' 
 
 
 //let results = highest # of answers ... or total occurences of x value
