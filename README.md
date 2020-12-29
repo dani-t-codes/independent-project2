@@ -31,7 +31,7 @@ _Color scheme: #EDC7B7, #EEE2DC, #BAB2B5, #123C69, #AC3861_
 
 _As of 10.25.20, the quiz only shows one answer at a time, as it should, but the values of each answer in the quiz do not total up to produce one result as they should._
 
-_The testing.js page is intentionally not linked in anywhere, and merely contains my "chicken scratch", tests, previous code that got refactored, and future thinking to make all five question answers connect to a single result. It is largely meant to be ignored, except for myself._ 
+_The 'testing.js' page is intentionally not linked in anywhere, and merely contains my "chicken scratch", tests, previous code that got refactored, and future thinking to make all five question answers connect to a single result. It is largely meant to be ignored, except for myself._ 
 
 ### Legal 
 
