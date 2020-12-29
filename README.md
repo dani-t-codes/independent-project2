@@ -20,7 +20,7 @@ _Color scheme: #EDC7B7, #EEE2DC, #BAB2B5, #123C69, #AC3861_
 * _jQuery Library_
 
 ## Complete setup instructions
-* _In the Terminal for Mac users or Command Prompt program for Windows users, clone this application from this (GitHub repository)[https://github.com/dani-t-codes/independent-project2] with the following command:_
+* _In the Terminal for Mac users or Command Prompt program for Windows users, clone this application from this [GitHub repository](https://github.com/dani-t-codes/independent-project2) with the following command:_
 * _`git clone https://github.com/dani-t-codes/independent-project2` _
 * _Open the index.html in your web browser of choice, either by double-clicking the file icon inside the project folder, or by opening File>Open File>"index.html" from the independent-project2 folder that you cloned onto your computer._
 * _Read through the information on the index page as much, or as little as you wish._
